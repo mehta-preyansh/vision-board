@@ -1,8 +1,7 @@
 "use client"
 import { useState, useCallback, useRef, useEffect, createContext, useContext, useReducer } from 'react';
-import { FiMousePointer, FiType, FiImage, FiRotateCcw, FiSun, FiMoon, FiMenu, FiX, FiCopy, FiTrash2, FiChevronDown, FiUpload, FiInfo, FiTool, FiTrendingUp, FiStar, FiSmartphone, FiRotateCw, FiZap, FiSettings, FiMove } from 'react-icons/fi';
+import { FiMousePointer, FiType, FiImage, FiRotateCcw, FiSun, FiMoon, FiX, FiCopy, FiTrash2, FiChevronDown, FiUpload, FiInfo, FiTool, FiTrendingUp, FiStar, FiSmartphone, FiRotateCw, FiZap, FiSettings, FiMove } from 'react-icons/fi';
 import { FaPalette } from 'react-icons/fa';
-import Head from 'next/head';
 
 // =============================================
 // CUSTOM SCROLLBAR STYLES
