@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { GlobalStateProvider } from "./src/context";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,9 +15,7 @@ export default function RootLayout({
     <html lang="en">
       <body
       >
-        <GlobalStateProvider>
           {children}
-        </GlobalStateProvider>
       </body>
     </html>
   );
